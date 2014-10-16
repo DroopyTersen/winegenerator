@@ -1,0 +1,14 @@
+<ion-view title="Home">
+  <ion-content class="padding">
+    <h3>Wine Review Generator</h3>
+    <p>{{review}}</p>
+    <div class='padding-top row'>
+      <div class='col col-25'>
+        <button class="button button-block icon ion-heart button-assertive" ng-click='addFavorite()'></button>
+      </div>
+      <div class='col col-75'>
+        <button class="button button-block icon-left ion-refresh button-energized" ng-click='generateReview()'>Generate new Review</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

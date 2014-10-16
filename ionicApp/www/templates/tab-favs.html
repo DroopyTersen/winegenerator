@@ -1,0 +1,9 @@
+<ion-view title="Favorites">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="favorite in favorites" type="item-text-wrap" href="#/tab/favorites/{{favorite.id}}">
+        {{favorite.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
